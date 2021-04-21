@@ -9,7 +9,7 @@ header {
 
 .logo {
     float:left;
-    width:200px;
+    width:150px;
     height: auto;
 }
 
@@ -35,7 +35,7 @@ header {
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 28px;
 }
 
 ul li{
