@@ -54,6 +54,10 @@ ul li a:hover{
     color:rgb(127, 161, 255);
 }
 
+ul li.active a{
+    color:rgb(127, 161, 255);
+}
+
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
