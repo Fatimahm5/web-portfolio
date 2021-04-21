@@ -1,0 +1,33 @@
+header {
+    padding-top: 100px;
+}
+
+.logo {
+    width:240px;
+}
+
+.logo .st0{
+    fill:rgb(127, 251, 255);
+}
+
+.logo .st1{
+    fill:rgb(127, 251, 255);
+}
+
+
+.logo .st0:hover{
+    fill:rgb(255, 196, 228);
+    transition: 1s ease-in;
+}
+
+.logo .st1:hover{
+    fill:rgb(255, 196, 228);
+    transition: 1s ease-in;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
