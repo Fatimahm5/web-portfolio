@@ -4,13 +4,13 @@
 }
 
 header {
-    padding-top: 100px;
+    background-color: seashell;
 }
 
 .logo {
     float:left;
     width:200px;
-    height: 200px;
+    height: auto;
 }
 
 .logo .st0{
