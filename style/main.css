@@ -7,21 +7,21 @@ header {
 }
 
 .logo .st0{
-    fill:rgb(127, 251, 255);
+    fill:rgb(127, 161, 255);
 }
 
 .logo .st1{
-    fill:rgb(127, 251, 255);
+    fill:rgb(127, 161, 255);
 }
 
 
 .logo .st0:hover{
-    fill:rgb(255, 196, 228);
+    fill:rgb(253, 123, 195);
     transition: 1s ease-in;
 }
 
 .logo .st1:hover{
-    fill:rgb(255, 196, 228);
+    fill:rgb(253, 123, 195);
     transition: 1s ease-in;
 }
 
