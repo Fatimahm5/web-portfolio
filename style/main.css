@@ -12,8 +12,8 @@
 
 nav{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     background-color: white;
     box-shadow: rgb(127, 161, 255);
     z-index: 1;
