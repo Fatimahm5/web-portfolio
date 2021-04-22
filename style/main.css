@@ -76,9 +76,9 @@ ul li.active a{
 }
 
 .header-image{
-    width: 20px;
-    height: 10px;
-    margin: 10px;
+    width: 10px;
+    height: 5px;
+    margin: 20px;
 }
 
 @media only screen and (min-width: 1200px) {
