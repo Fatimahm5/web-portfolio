@@ -62,10 +62,18 @@ ul li.active a{
         width: 1200px;
         margin: 0 auto;
     }
+    .ul li{
+        display: block;
+    }
+    .ul{
+        position: absolute;
+        background:rgb(127, 161, 255);
+        height: 100vh;
+        width:200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
 }
 
-.dc{
-    align-content: flex-end;
-    width: 50%;
-    height: auto;
-}
