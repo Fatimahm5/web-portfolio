@@ -118,11 +118,11 @@ ul li.active a{
 
 .header-btn{
     width: 150px;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:rgb(253, 123, 195);
+    background-color: #88bd24;
     color: white;
     transition: 0.3s ease-in-out;
 }
