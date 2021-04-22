@@ -85,14 +85,14 @@ ul li.active a{
 }
 
 .header-image{
-    width: 850px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     margin: 20px;
 }
 
 .header-image img{
-    width: 130%;
-    height: 130%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     object-position: center;
 }
