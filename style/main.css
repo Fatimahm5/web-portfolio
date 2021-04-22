@@ -24,11 +24,7 @@ nav{
 }
 
 .logo {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    width:200px;
-    height: auto;
+    height: 80px;
 }
 
 .logo .st0{
