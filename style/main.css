@@ -62,6 +62,8 @@ ul li.active a{
     height: 50%;
     object-fit: contain;
     object-position: left;
+    margin-top: 20px;
+    float:left;
 }
 @media only screen and (min-width: 1200px) {
     .main {
