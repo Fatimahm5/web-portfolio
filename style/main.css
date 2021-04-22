@@ -24,6 +24,7 @@ nav{
 }
 
 .logo {
+    float:left;
     height: 200px;
 }
 
