@@ -96,6 +96,20 @@ ul li.active a{
     object-fit: contain;
     object-position: center;
 }
+
+.header-text{
+    width:500px;
+    margin: 20px;
+}
+.header-text h1{
+    font-size: 3.2rem;
+    line-height: 55px;
+    color: black;
+    letter-spacing: 10x;
+    font-weight: 600;
+    margin: 0px;
+
+}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
