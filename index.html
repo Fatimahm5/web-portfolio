@@ -3,17 +3,18 @@
   <meta name="viewport" content="with=device-width, initial-scale=1.0"/>
 <title>My Web Portfolio</title>
 <link rel="stylesheet" href="style/main.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-  
-  <div class="main">
+  <section class="header">
+  <nav>
   <!--
     <div class="logo">
       <img src="images/Vet clinic logo.svg" alt=""/>
     </div>
   -->
-    <div class="logo">
+    <a href="#" class="logo">
       <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -39,20 +40,25 @@
 	C331.6,183.5,326.3,219.9,318.1,242.5z"/>
 <text transform="matrix(0.9725 0 0 1 285.0894 309.5759)" class="st2 st3 st4">Zues Pet Clinic</text>
 </svg>  
-  </div>
-  <ul>
+</a>
+<!--Responsive Menu-->
+<input class="menu-btn" type="checkbox" id="menu-bar">
+<label class="menu-icon" for="menu-bth">
+  <span class="nav-icon"></span>
+</label>
+<!--Navigation-->
+  <ul class="menu">
     <li class="active"><a href="#">Home</a></li>
     <li><a href="#">About us</a></li>
     <li><a href="#">Services</a></li>
     <li><a href="#">Shop online</a></li>
+    <li><a href="#">Emergency</a></li>
     <li><a href="#">Get Appointment</a></li>
     <li><a href="#">Contact us</a></li>
   </ul>
 
- </div>
-  </header>
-  <div class="frontimg">
-    <img class="dc" src="images/main image.jpg" alt="animal">
-  </div>
+  </nav>
+</section>
+
 </body>
 </html>
