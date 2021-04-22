@@ -124,7 +124,12 @@ ul li.active a{
     align-items: center;
     background-color: #88bd24;
     color: white;
+    text-transform: uppercase;
     transition: 0.3s ease-in-out;
+}
+
+.header-btn:hover{
+    background-color: #a6d351;
 }
 @media only screen and (min-width: 1200px) {
     .main {
