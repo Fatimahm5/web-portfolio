@@ -147,7 +147,7 @@ ul li.active a{
 }
 
 .services-col img{
-    width: 500%;
+    width: 50%;
     border-radius: 10px;
 }
 @media only screen and (min-width: 1200px) {
