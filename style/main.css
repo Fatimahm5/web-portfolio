@@ -133,8 +133,10 @@ ul li.active a{
 }
 
 .services{
-    background-size: 1000px;
-    background-position: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .services-heading{
