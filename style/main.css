@@ -139,53 +139,16 @@ ul li.active a{
     padding-top: 100px;
 }
 
-.services-heading{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
+.services-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
 }
 
-.services-heading h2{
-    line-height: 52px;
-    font-size: 2.5rm;
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 700;
-    margin: 0px;
-}
-
-.services-heading p{
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.671);
-    width: 50%;
-}
-
-.box-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin:20px 30px;
-}
-
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 600px;
-    height: 500px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 2px 2px 20px;
-}
-
-.box img{
-    width: 50%;
-    height: auto;
+.services-col img{
+    width: 100%;
+    border-radius: 10px;
 }
 @media only screen and (min-width: 1200px) {
     .main {
