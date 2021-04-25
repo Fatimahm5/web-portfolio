@@ -208,7 +208,7 @@ ul li.active a{
     display: flex;
     justify-content: center;
     align-items: center;
-    order: 2px solid #88bd24;
+    border: 2px solid #88bd24;
     text-transform: uppercase;
     margin: auto;
     border-radius: 5px;
