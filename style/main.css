@@ -300,6 +300,7 @@ ul li.active a{
 }
 
 .services-btn{
+    float: center;
     width: 150px;
     height: 40px;
     display: flex;
