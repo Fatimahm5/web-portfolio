@@ -303,7 +303,8 @@ ul li.active a{
     width: 150px;
     height: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
     align-items: center;
     background-color: #88bd24;
     color: white;
