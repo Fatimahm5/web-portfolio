@@ -223,6 +223,35 @@ ul li.active a{
     background-color: #a0d144;
     color: white;
 }
+
+.services{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.services-heading{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column
+}
+
+.services-col{
+    flex-direction: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.services-col img{
+    width: 100%;
+    
+}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
