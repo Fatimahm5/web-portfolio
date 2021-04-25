@@ -177,7 +177,7 @@ ul li.active a{
     width: 200px;
     height: 300px;
     text-align: center;
-    box-shadow: 1px 1px 10px rgb(243, 213, 185);
+    box-shadow: 1px 1px 10px rgb(250, 225, 203);
     border-radius: 5px;
     background-color:rgb(252, 234, 200);
     margin: 10px;
@@ -203,8 +203,8 @@ ul li.active a{
 }
 
 .box a{
-    width: 120px;
-    height: 10px;
+    width: 150px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
