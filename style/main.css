@@ -224,43 +224,7 @@ ul li.active a{
     color: white;
 }
 
-.services{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
 
-.services-heading{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column
-}
-
-.services-col{
-    flex-direction: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-
-.services-col img{
-    width: 20%;
-    
-}
-
-.layer{
-    background: rgb(216, 248, 219);
-    height: 50%;
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left:0;
-}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
