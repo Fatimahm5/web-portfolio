@@ -231,6 +231,20 @@ ul li.active a{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     align-items: start;
 }
+
+.section-item{
+    background-color: white;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem bisque;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem whitesmoke;
+}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
