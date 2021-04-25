@@ -204,14 +204,14 @@ ul li.active a{
 
 .box a{
     width: 150px;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1.5px solid #88bd24;
     text-transform: uppercase;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 4px;
     font-weight: 600;
     font-size:1rem;
     color: #88bd24;
