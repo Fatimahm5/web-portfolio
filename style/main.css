@@ -303,8 +303,8 @@ ul li.active a{
     width: 150px;
     height: 40px;
     display: flex;
-    justify-content: space-around;
-    align-items: middle;
+    justify-content: center;
+    align-items: center;
     background-color: #88bd24;
     color: white;
     text-transform: uppercase;
