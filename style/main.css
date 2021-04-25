@@ -269,9 +269,9 @@ ul li.active a{
     width: 300px;
     height: 400px;
     text-align: center;
-    box-shadow: 1px 1px 10px rgb(250, 225, 203);
+    box-shadow: 1px 1px 10px white;
     border-radius: 5px;
-    background-color:rgb(252, 234, 200);
+    background-color: white;
     margin: 10px;
     flex-grow: 0.5;
 }
