@@ -179,9 +179,43 @@ ul li.active a{
     text-align: center;
     box-shadow: 1px 1px 10px rgb(243, 213, 185);
     border-radius: 5px;
-    background-color:wheat;
+    background-color:rgb(252, 234, 200);
     margin: 10px;
     flex-grow: 0.5;
+}
+
+.box h3{
+    font-size: 2rem;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.box p{
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.671);
+    display: block;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+
+.box a{
+    width: 120px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2px solid #88bd24;
+    text-transform: uppercase;
+    margin: auto;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size:0.6rem;
+    color: #88bd24;
+    margin: 0px;
 }
 @media only screen and (min-width: 1200px) {
     .main {
