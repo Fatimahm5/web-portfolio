@@ -61,13 +61,12 @@ ul li{
 ul li a{
     text-decoration: none;
     color:black;
-    padding: 5px 10px;
+    padding: 5px 20px;
     transition: 0.6s ease;
 }
 
 ul li a:hover{
-    background:rgb(127, 161, 255);
-    border-radius: 1px;
+    color:rgb(127, 161, 255);
 }
 
 ul li.active a{
