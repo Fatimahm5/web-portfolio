@@ -419,7 +419,7 @@ ul li.active a{
 
 .slider figure{
     position: relative;
-    width: 500%;
+    width: 400%;
     margin: 0px;
     left: 0;
     animation: 20s fatty infinite;
