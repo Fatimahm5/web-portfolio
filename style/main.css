@@ -400,6 +400,11 @@ ul li.active a{
     height: 400px;
     width: 300px;
 }
+
+.slider figure div{
+    float: left;
+    width: 20%;
+}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
