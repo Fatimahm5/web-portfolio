@@ -456,10 +456,18 @@ footer{
     display: inline-block;
     height: 25px;
     width: 25px;
+    background-color: whitesmoke;
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
+    color: rgb(127, 161, 255);
+    transition: all 0.4s ease;
+}
+
+.social a:hover{
+    color:rgb(253, 123, 195);
+    background-color: whitesmoke;
 }
 @media only screen and (min-width: 1200px) {
     .main {
