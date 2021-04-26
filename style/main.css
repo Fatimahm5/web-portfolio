@@ -375,12 +375,13 @@ ul li.active a{
 
 .about-btn{
     width: 150px;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #88bd24;
     color: white;
+    box-shadow: 5px 10px 30px #a3c95d;
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
 }
