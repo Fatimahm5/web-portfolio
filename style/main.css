@@ -407,6 +407,7 @@ ul li.active a{
 
 .slide img{
     height: 180px;
+    margin: 20px;
 }
 
 .slider figure img{
