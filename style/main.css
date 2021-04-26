@@ -398,6 +398,8 @@ ul li.active a{
 .slider{
     overflow: hidden;
     height: 400px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .slider figure div{
