@@ -452,17 +452,6 @@ footer{
     background-color: rgba(253, 123, 194, 0.301);
 }
 
-.social a{
-    display: inline-block;
-    height: 25px;
-    width: 25px;
-    background-color: whitesmoke;
-    margin: 0 20px 20px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: rgb(127, 161, 255);
-}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
