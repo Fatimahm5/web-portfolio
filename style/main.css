@@ -409,7 +409,8 @@ ul li.active a{
 
 .slider figure img{
     width: 20%;
-    height: 200px;
+    height: 300px;
+    width: 400px;
     float: left;
 }
 
