@@ -447,6 +447,7 @@ footer p{
 
 footer{
     width: 90%;
+    margin: 20px;
     text-align: center;
     padding: 0px 5%;
     border-color: rgb(253, 123, 195);
