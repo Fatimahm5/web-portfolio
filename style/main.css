@@ -374,8 +374,8 @@ ul li.active a{
 }
 
 .about-btn{
-    width: 150px;
-    height: 40px;
+    width: 130px;
+    height: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
