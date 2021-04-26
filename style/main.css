@@ -381,13 +381,24 @@ ul li.active a{
     align-items: center;
     background-color: #88bd24;
     color: white;
-    box-shadow: 5px 10px 30px #a3c95d;
+    box-shadow: 5px 10px 30px #a0c757;
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
 }
 
 .about-btn:hover{
     background-color: #a0d144;
+}
+
+.gallery{
+    background-size: 1000px;
+    background-position: center;
+}
+
+.slider{
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
 }
 @media only screen and (min-width: 1200px) {
     .main {
