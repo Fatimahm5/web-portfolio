@@ -448,19 +448,18 @@ footer p{
 footer{
     width: 90%;
     text-align: center;
-    padding: 0px 10%;
+    padding: 0px 5%;
     background-color: rgba(253, 123, 194, 0.301);
 }
 
 .footer .social a{
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     background-color: whitesmoke;
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
     color: #88bd24;
 }
 @media only screen and (min-width: 1200px) {
