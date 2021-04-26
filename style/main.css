@@ -420,7 +420,7 @@ ul li.active a{
 }
 .container{
     max-width: 1200px;
-    margin: 10px;
+    margin: auto;
     background: white;
     overflow: auto;
 }
@@ -435,6 +435,31 @@ ul li.active a{
 .gallery img{
     width: 100%;
     height: auto;
+}
+
+.footer{
+    background-size: 1000px;
+    background-position: center;
+    background-color:rgb(127, 161, 255);
+}
+
+.footer-content h3{
+    font-size: 2rem;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.footer-content .social a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:rgb(253, 123, 195);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
 }
 @media only screen and (min-width: 1200px) {
     .main {
