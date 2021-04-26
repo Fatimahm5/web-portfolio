@@ -111,7 +111,7 @@ ul li.active a{
 
 }
 
-.header-text{
+.header-text p{
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.671);
 }
@@ -316,6 +316,76 @@ ul li.active a{
 }
 
 .services-btn:hover{
+    background-color: #a0d144;
+}
+
+.about{
+    width: 100%;
+    height: 760px;
+    position: relative;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+}
+
+.about-image{
+    width: 800px;
+    height: 700px;
+    margin: 20px;
+}
+
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.about-text{
+    width:500px;
+    margin: 20px;
+}
+.about-text h2{
+    font-size: 2.5rem;
+    line-height: 50px;
+    color: black;
+    letter-spacing: 1x;
+    font-weight: 500;
+    margin: 0px;
+
+}
+
+.about-text p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.about-text span{
+    color: #88bd24;
+    text-decoration: underline;
+}
+
+.about-btn{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #88bd24;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+.about-btn:hover{
     background-color: #a0d144;
 }
 @media only screen and (min-width: 1200px) {
