@@ -397,101 +397,48 @@ ul li.active a{
 
 .slider{
     overflow: hidden;
-    height: 300px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.slider figure div{
-    float: left;
-    width: 20%;
-}
-
-.slide img{
-    height: 150px;
-    margin: 10px;
-}
-
-.slider figure img{
-    width: 100%;
-    float: left;
 }
 
 .slider figure{
     position: relative;
     width: 500%;
-    margin: 0px;
+    margin: 0;
     left: 0;
-    animation: 20s fatty infinite;
+    animation: 20s slider infinite;
 }
 
-@keyframes fatty{
+.slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
     0%{
-       left: 0%;
+        left: 0;
     }
-
-    10%{
-        left: 0%;
+    20%{
+        left: 0;
     }
-
-    12%{
+    25%{
         left: -100%;
     }
-
-    22%{
+    45%{
         left: -100%;
     }
-
-    24%{
-        left: -200%; 
-    }
-
-    34%{
+    50%{
         left: -200%;
     }
-
-    36%{
-        left: -300%;
-    }
-
-    46%{
-        left: -300%;
-    }
-
-    48%{
-        left: -400%;
-    }
-
-    58%{
-        left: -400%;
-    }
-
-    60%{
-        left: -300%; 
-    }
-
     70%{
+        left: -200%;
+    }
+    75%{
         left: -300%;
     }
-
-    72%{
-        left: -200%;
+    95%{
+        left: -300%;
     }
-
-    82%{
-        left: -200%;
-    }
-
-    84%{
-        left: -100%;
-    }
-
-    94%{
-        left: -100%;
-    }
-    
-    96%{
-        left: 0%;
+    100%{
+        left: -400%;
     }
 
 }
