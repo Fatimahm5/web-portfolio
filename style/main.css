@@ -405,6 +405,10 @@ ul li.active a{
     width: 20%;
 }
 
+.slide img{
+    height: 180px;
+}
+
 .slider figure img{
     width: 100%;
     float: left;
