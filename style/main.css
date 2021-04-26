@@ -442,7 +442,7 @@ nav .menu-btn{
 }
 
 footer p{
-    color:rgb(127, 161, 255);
+    color: black;
 }
 
 footer{
@@ -457,7 +457,7 @@ footer{
     height: 40px;
     width: 40px;
     background-color: whitesmoke;
-    margin: 0 10px 10px 0;
+    margin: 0 20px 20px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
