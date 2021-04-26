@@ -420,7 +420,7 @@ ul li.active a{
 }
 .container{
     max-width: 1200px;
-    margin: auto;
+    margin: 10px;
     background: white;
     overflow: auto;
 }
