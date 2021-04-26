@@ -398,7 +398,7 @@ ul li.active a{
 .slider{
     overflow: hidden;
     height: 300px;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 
