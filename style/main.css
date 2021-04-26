@@ -441,6 +441,16 @@ nav .menu-btn{
     height: auto;
 }
 
+footer p{
+    color:rgb(127, 161, 255);
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 0px 5%;
+    border-color: rgb(253, 123, 195);
+}
 @media only screen and (min-width: 1200px) {
     .main {
         width: 1200px;
