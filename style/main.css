@@ -474,7 +474,7 @@ footer{
     .menu{
         display: none;
         position: absolute;
-        top: 70px;
+        top: 65px;
         left: 0px;
         background-color: whitesmoke;
         border-bottom: 4px solid #88bd24;
@@ -485,11 +485,11 @@ footer{
     }
     nav .menu li a{
         width: 100%;
-        height: 43px;
+        height: 40px;
         justify-content: center;
         align-items: center;
         margin: 0px;
-        padding: 30px;
+        padding: 35px;
         border: 1px solid rgb(252, 234, 200);
     }
     nav .menu-icon{
