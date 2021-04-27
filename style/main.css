@@ -495,7 +495,7 @@ footer{
     nav .menu-icon{
         cursor: pointer;
         float: right;
-        padding: 33px 30px;
+        padding: 28px 20px;
         position: relative;
         user-select: none;
     }
