@@ -464,13 +464,16 @@ footer{
 
 .social a:hover{
     color:rgb(253, 123, 195);
-    background-color: whitesmoke;
 }
-@media only screen and (min-width: 1200px) {
-    .main {
-        width: 1200px;
-        margin: 0 auto;
+
+@media(max-width:1200px){
+    nav{
+        justify-content: space-between;
+        height: 70px;
     }
-    
+    .menu{
+        display: none;
+        position: absolute;
+    }
 }
 
