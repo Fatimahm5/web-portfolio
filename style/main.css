@@ -469,7 +469,7 @@ footer{
 @media(max-width:1200px){
     nav{
         justify-content: space-between;
-        height: 70px;
+        height: 65px;
     }
     .menu{
         display: none;
