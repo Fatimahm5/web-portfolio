@@ -570,25 +570,5 @@ footer{
     nav .menu-btn:checked ~ .menu{
         display: block;
     }
-    .header-img{
-        display: none;
-    }
-    header-text{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 45vh;
-        margin: 0px;
-    }
-    header-content{
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-        position: static;
-        transform: translate(0px, 70px);
-        box-shadow: 2px 2px 30px rgb(127, 161, 255);
-    }
 }
 
