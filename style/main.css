@@ -15,7 +15,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    box-shadow: rgb(127, 161, 255);
+    box-shadow: 2px 2px 20px rgb(127, 161, 255);
     z-index: 1;
     width: 100%;
     position: fixed;
@@ -48,29 +48,36 @@ nav{
     transition: 1s ease-in;
 }
 
-ul{
+nav ul{
     display: flex;
     margin: 0px;
     padding: 0px;
 }
 
-ul li{
-    display: inline-block;
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 350;
+    color: black;
+    letter-spacing: 1px;
+    transition: 0.4s ease-in-out;
 }
 
-ul li a{
-    text-decoration: none;
-    color:black;
-    padding: 5px 20px;
-    transition: 0.6s ease;
+.active{
+    background-color: rgb(127, 161, 255);
+    color: white;
 }
 
-ul li a:hover{
-    color:rgb(127, 161, 255);
-}
-
-ul li.active a{
-    color:rgb(127, 161, 255);
+nav ul li a:hover{
+    border-radius: 5px;
+    background-color: rgb(127, 161, 255);
+    color: white;
+    transition: all ease 0.2s;
 }
 
 nav .menu-btn{
