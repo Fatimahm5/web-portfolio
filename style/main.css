@@ -490,7 +490,7 @@ footer{
         align-items: center;
         margin: 0px;
         padding: 30px;
-        border: 1px solid black;
+        border: 1px solid rgb(252, 234, 200);
     }
     nav .menu-icon{
         cursor: pointer;
@@ -500,7 +500,7 @@ footer{
         user-select: none;
     }
     nav .menu-icon .nav-icon{
-        background-color:rgb(252, 234, 200);
+        background-color: black;
         display: block;
         height: 3px;
         position: relative;
@@ -509,7 +509,7 @@ footer{
     }
     nav .menu-icon .nav-icon:before,
     nav .menu-icon .nav-icon:after{
-        background:rgb(252, 234, 200);
+        background: black;
         content: "";
         display: block;
         height: 100%;
@@ -523,6 +523,16 @@ footer{
     nav .menu-icon .nav-icon:after{
         top: -5px;
     }
-    nav .menu-btn:checked
+    nav .menu-btn:checked ~ ,menu-icon .nav-icon{
+        background: transparent;
+    }
+    nav .menu-btn:checked ~ ,menu-icon .nav-icon:before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    nav .menu-btn:checked ~ ,menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
 }
 
