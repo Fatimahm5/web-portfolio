@@ -79,7 +79,7 @@ nav ul li a{
     margin: 8px;
     padding: 0px 10px;
     display: flex;
-    font-size: 0.8rem;
+    font-size: 10rem;
     text-transform: uppercase;
     font-weight: 350;
     color: black;
@@ -569,6 +569,52 @@ footer{
     }
     nav .menu-btn:checked ~ .menu{
         display: block;
+    }
+    .header-img{
+        flex-direction: column-reverse;
+        margin: 45px 0;
+        flex-basis: 100%;
+        margin-bottom: 45px;
+        width: 75%;
+    }
+    .header-text{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 47vh;
+        margin: 0px;
+        margin-top: -120px;
+    }
+    .header-text h1{
+        text-align: center;
+        padding: 0px 20px;
+        font-size: 2.2rem;
+    }
+    .header-text p{
+        text-align: center;
+    }
+    .about-img{
+        display: none;
+    }
+    .about-text{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 47vh;
+        margin: 0px;
+        margin-top: -120px;
+    }
+    .about-text h1{
+        text-align: center;
+        padding: 0px 20px;
+        font-size: 2.2rem;
+    }
+    .about-text p{
+        text-align: center;
     }
 }
 
