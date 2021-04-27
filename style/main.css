@@ -45,7 +45,7 @@ nav{
 .logo {
     float:left;
     width: 175px;
-    height: 135px;
+    height: 175px;
 }
 
 .logo .st0{
@@ -496,6 +496,10 @@ footer{
     nav{
         justify-content: space-between;
         height: 65px;
+    }
+    .logo{
+        height: 100px;
+        width: 100px;
     }
     .menu{
         display: none;
