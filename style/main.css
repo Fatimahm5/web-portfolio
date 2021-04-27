@@ -142,7 +142,7 @@ nav .menu-btn{
 }
 
 .header-text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.671);
 }
 
@@ -186,7 +186,7 @@ nav .menu-btn{
 }
 
 .emergency-heading p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:rgba(0, 0, 0, 0.671);
     width: 50%;
 }
@@ -222,7 +222,7 @@ nav .menu-btn{
 }
 
 .box p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:rgba(0, 0, 0, 0.671);
     display: block;
     -webkit-line-clamp: 3;
@@ -278,7 +278,7 @@ nav .menu-btn{
 }
 
 .services-heading p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:rgba(0, 0, 0, 0.671);
     width: 50%;
 }
@@ -319,7 +319,7 @@ nav .menu-btn{
 }
 
 .boxx p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:rgba(0, 0, 0, 0.671);
     display: block;
     -webkit-line-clamp: 3;
@@ -394,7 +394,7 @@ nav .menu-btn{
 }
 
 .about-text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.671);
 }
 
@@ -571,11 +571,7 @@ footer{
         display: block;
     }
     .header-img{
-        flex-direction: column-reverse;
-        margin: 45px 0;
-        flex-basis: 100%;
-        margin-bottom: 45px;
-        width: 75%;
+        display: none;
     }
     .header-text{
         width: 100%;
