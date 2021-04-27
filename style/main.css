@@ -456,6 +456,7 @@ footer{
     display: inline-block;
     height: 36px;
     width: 36px;
+    position: absolute;
     background-color: black;
     margin: 0 10px 10px 0;
     text-align: center;
