@@ -38,8 +38,8 @@ nav{
 
 .logo {
     float:left;
-    width: 175px;
-    height: 175px;
+    width: 165px;
+    height: 165px;
 }
 
 .logo .st0{
@@ -509,7 +509,7 @@ footer{
         justify-content: center;
         align-items: center;
         margin: 0px;
-        padding: 35px;
+        padding: 25px;
         border: 1px solid rgb(252, 234, 200);
     }
     nav .menu-icon{
