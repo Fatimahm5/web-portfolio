@@ -81,7 +81,7 @@ nav ul li a{
     display: flex;
     font-size: 0.8rem;
     text-transform: uppercase;
-    font-weight: 350;
+    font-weight: 400;
     color: black;
     letter-spacing: 1px;
     transition: 0.4s ease-in-out;
@@ -135,7 +135,7 @@ nav .menu-btn{
     font-size: 3.2rem;
     line-height: 55px;
     color: black;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     font-weight: 600;
     margin: 0px;
 
